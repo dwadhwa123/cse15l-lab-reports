@@ -14,3 +14,4 @@
 
 Horizontal line
 ---
+'Inline'
