@@ -20,3 +20,4 @@ Horizontal line
 # code block
 This is CSE15. The best class in UCSD. 
 ```
+[Link](https://github.com/dwadhwa123/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
