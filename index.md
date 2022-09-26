@@ -18,5 +18,5 @@ Horizontal line
 
 ```
 # code block
-This is CSE15
+This is CSE15. The best class in UCSD. 
 ```
