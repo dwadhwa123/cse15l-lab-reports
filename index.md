@@ -14,4 +14,4 @@
 
 Horizontal line
 ---
-'Inline'
+`Inline code` with backticks
