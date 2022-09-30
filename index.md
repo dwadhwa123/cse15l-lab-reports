@@ -2,7 +2,8 @@
 **bold**
 # Big Heading
 ## Small Heading
-[Link](https://github.com/dwadhwa123/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
+[Lab Report 0](https://github.com/dwadhwa123/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
+[Lab Report 1](https://github.com/dwadhwa123/cse15l-lab-reports/blob/main/lab-report-week-1.md)
 ![Image](https://cdn.hswstatic.com/gif/water-update.jpg)
 > This is a block quote
 * water
