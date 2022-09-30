@@ -31,6 +31,6 @@
 * Finally, you can optimizing remote running further by typing a command along with the ssh command. 
 * An example of the ssh command with the ls command is shown below. When the secure shell opens, results of the ls command will automatically generate. 
 
-
+![Screenshot](https://user-images.githubusercontent.com/114367462/193338970-2b5b337f-2d28-4c51-b097-8ceec04fbcef.png)
 
 
