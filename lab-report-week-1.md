@@ -2,7 +2,14 @@
 
 ## Installing VSCode
 
+*The first step is to download Visual Studio Code. 
+*When VSCode is first opened, it should look like the image below.
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/193203794-2ab46a33-d12b-4e34-9cfe-aa65315559ef.png)
+
 ## Remotely Connecting
+
+
 
 ## Trying some commands
 
@@ -12,7 +19,7 @@
 
 ## Optimizing Remote Running
 
-![Screenshot](https://user-images.githubusercontent.com/114367462/193203794-2ab46a33-d12b-4e34-9cfe-aa65315559ef.png)
+
 
 
 
