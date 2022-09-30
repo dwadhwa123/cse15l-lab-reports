@@ -9,7 +9,9 @@
 
 ## Remotely Connecting
 * The next step is to install OpenSSH which is only a step necessary for Windows users. (Open SSH is already on Mac)
-* Next, type the command ssh cs15lfa22fx@ieng6.ucsd.edu with the 'fx' replaced. Type yes when prompted and enter your password. 
+* Next, type the command ssh cs15lfa22fx@ieng6.ucsd.edu with the 'fx' replaced. Type yes when prompted and enter your password.
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/193338679-8c795278-4e69-4b70-ba71-48cb476fb7c2.png)
 
 ## Trying some commands
 * After logging into the secure shell, you can try running commands such as cd, mkdir, ls, etc
