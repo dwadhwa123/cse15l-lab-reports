@@ -1,7 +1,6 @@
 # Tutorial to log into a course-specific account on ieng6
 
 ## Installing VSCode
-
 * The first step is to download Visual Studio Code. 
 * When VSCode is first opened, it should look like the image below.
 
@@ -26,6 +25,8 @@
 * Type the command ssh-keygen and return multiple times in order to take the default path.
 * In order to complete the process, type the following commands: ssh cs15lfa22fx@ieng6.ucsd.edu, mkdir .ssh, scp /Users/dhruv/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys and replace your username
 * Now you will no longer have to type your password repeatedly while using the ssh and scp commands 
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/193339159-ceb82491-5a75-45a9-8d7c-10d6647de357.png)
 
 ## Optimizing Remote Running
 * Finally, you can optimizing remote running further by typing a command along with the ssh command. 
