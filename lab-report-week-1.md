@@ -11,8 +11,6 @@
 * The next step is to install OpenSSH which is only a step necessary for Windows users. (Open SSH is already on Mac)
 * Next, type the command ssh cs15lfa22fx@ieng6.ucsd.edu with the 'fx' replaced. Type yes when prompted and enter your password.
 
-![Screenshot](https://user-images.githubusercontent.com/114367462/193338679-8c795278-4e69-4b70-ba71-48cb476fb7c2.png)
-
 ## Trying some commands
 * After logging into the secure shell, you can try running commands such as cd, mkdir, ls, etc
 * Below is the result of running the command ls -a which results in all of the files being shown.
@@ -21,6 +19,8 @@
 * Create a file called WhereAmI.java and save it to your computer
 * As of right now, if you run ls inside the secure shell you will not see this new file. To copy it from your client to the shell, use the command scp WhereAmI.java cs15lfa22fx@ieng6.ucsd.edu:~/ with the "fx" replaced. 
 * Now running ls, you will see the WhereAmI.java file in the shell and can run it.
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/193338679-8c795278-4e69-4b70-ba71-48cb476fb7c2.png)
 
 ## Setting an SSH key
 * Type the command ssh-keygen and return multiple times in order to take the default path.
