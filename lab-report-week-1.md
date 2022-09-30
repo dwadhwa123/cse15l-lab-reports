@@ -8,17 +8,26 @@
 ![Screenshot](https://user-images.githubusercontent.com/114367462/193203794-2ab46a33-d12b-4e34-9cfe-aa65315559ef.png)
 
 ## Remotely Connecting
-
-
+* The next step is to install OpenSSH which is only a step necessary for Windows users. (Open SSH is already on Mac)
+* Next, type the command ssh cs15lfa22fx@ieng6.ucsd.edu with the 'fx' replaced. Type yes when prompted and enter your password. 
 
 ## Trying some commands
+* After logging into the secure shell, you can try running commands such as cd, mkdir, ls, etc
+* Below is the result of running the command ls -a which results in all of the files being shown.
 
 ## Moving files with scp
+* Create a file called WhereAmI.java and save it to your computer
+* As of right now, if you run ls inside the secure shell you will not see this new file. To copy it from your client to the shell, use the command scp WhereAmI.java cs15lfa22fx@ieng6.ucsd.edu:~/ with the "zz" replaced. 
+* Now running ls, you will see the WhereAmI.java file in the shell and can run it.
 
 ## Setting an SSH key
+* Type the command ssh-keygen and return multiple times in order to take the default path.
+* In order to complete the process, type the following commands: ssh cs15lfa22fx@ieng6.ucsd.edu, mkdir .ssh, scp /Users/dhruv/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys and replace your username
+* Now you will no longer have to type your password repeatedly while using the ssh and scp commands 
 
 ## Optimizing Remote Running
-
+* Finally, you can optimizing remote running further by typing a command along with the ssh command. 
+* An example of the ssh command with the ls command is shown below. When the secure shell opens, results of the ls command will automatically generate. 
 
 
 
