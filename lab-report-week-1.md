@@ -10,9 +10,13 @@
 * The next step is to install OpenSSH which is only a step necessary for Windows users. (Open SSH is already on Mac)
 * Next, type the command ssh cs15lfa22fx@ieng6.ucsd.edu with the 'fx' replaced. Type yes when prompted and enter your password.
 
+![Screenshot](https://user-images.githubusercontent.com/114367462/193339658-55361de6-42c5-42bc-b219-d278e2bd5d05.png)
+
 ## Trying some commands
 * After logging into the secure shell, you can try running commands such as cd, mkdir, ls, etc
 * Below is the result of running the command ls -a which results in all of the files being shown.
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/193339681-ab801f01-08de-4406-b421-8aba412db95e.png)
 
 ## Moving files with scp
 * Create a file called WhereAmI.java and save it to your computer
@@ -33,5 +37,4 @@
 * An example of the ssh command with the ls command is shown below. When the secure shell opens, results of the ls command will automatically generate. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/193338970-2b5b337f-2d28-4c51-b097-8ceec04fbcef.png)
-
 
