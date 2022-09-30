@@ -17,7 +17,7 @@
 
 ## Moving files with scp
 * Create a file called WhereAmI.java and save it to your computer
-* As of right now, if you run ls inside the secure shell you will not see this new file. To copy it from your client to the shell, use the command scp WhereAmI.java cs15lfa22fx@ieng6.ucsd.edu:~/ with the "zz" replaced. 
+* As of right now, if you run ls inside the secure shell you will not see this new file. To copy it from your client to the shell, use the command scp WhereAmI.java cs15lfa22fx@ieng6.ucsd.edu:~/ with the "fx" replaced. 
 * Now running ls, you will see the WhereAmI.java file in the shell and can run it.
 
 ## Setting an SSH key
