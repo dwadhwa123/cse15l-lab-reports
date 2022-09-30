@@ -12,7 +12,7 @@
 
 ## Optimizing Remote Running
 
-![Screenshot](https://user-images.githubusercontent.com/114367462/193203794-2ab46a33-d12b-4e34-9cfe-aa65315559ef.png">)
+![Screenshot](https://user-images.githubusercontent.com/114367462/193203794-2ab46a33-d12b-4e34-9cfe-aa65315559ef.png")
 
 
 
