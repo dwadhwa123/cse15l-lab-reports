@@ -31,6 +31,8 @@
 * Now you will no longer have to type your password repeatedly while using the ssh and scp commands 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/193339159-ceb82491-5a75-45a9-8d7c-10d6647de357.png)
+![Screenshot](https://user-images.githubusercontent.com/114367462/194993843-357c9792-f5a8-4bff-91cf-b9cae1234337.png)
+
 
 ## Optimizing Remote Running
 * Finally, you can optimizing remote running further by typing a command along with the ssh command. 
