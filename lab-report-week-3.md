@@ -21,3 +21,15 @@ Here is the original code. The values in the first half of the array will change
 To fix this issue, I first changed the for loop to only iterate through the first half of the list. My plan was to have the corresponding elements of the array switch during the same loop. For example, the first and last switch in the first loop, then the second and the second last and so on. Inside the for loop, I used the variables first and second to store the values at the two indicies to be switched. This is done in order to avoid losing the original values in memory. Then, I set the index in the second half(arr.length-1-i) to first and the index in the first half(i) to second. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195694318-8294b170-98b3-42fe-8347-af74b796b8f4.png)
+
+
+merge method
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195702026-3a6b594d-791d-47a8-98a8-42e9c357eaab.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195701552-5a60d312-7d3d-430a-bc3d-1f25a3fedc8d.png)
+
