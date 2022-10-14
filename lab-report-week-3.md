@@ -101,7 +101,7 @@ To fix this issue, I first changed the for loop to only iterate through the firs
 
 merge method
 
-Here is the test that was ran to test the original code and the failure-inducing input is merge({"a", "b", "c"}, {"d", "e", "f"}
+Here is the test that was ran to test the original code and the failure-inducing input is merge({"a", "c", "e"}, {"b", "d", "f"}
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
 
