@@ -4,7 +4,15 @@
 
 ```
 # code block
-public String handleRequest(URI url) {
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    ArrayList<String> lst = new ArrayList<>();
+
+    public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format("Size: %d", lst.size());
         } 
@@ -41,8 +49,9 @@ public String handleRequest(URI url) {
             return "404 Not Found!";
         }
     }
-    
-    class SearchEngine {
+
+
+class SearchEngine {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -58,6 +67,8 @@ public String handleRequest(URI url) {
    ```
    
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195739202-6a84a9c9-4fa1-447f-b761-3630c3f0b8de.png)
+
+For this screenshot, the handleRequest method is called. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195739209-7ff85880-c9e0-4b45-b814-531da3cfac83.png)
 
@@ -87,7 +98,7 @@ To fix this issue, I first changed the for loop to only iterate through the firs
 
 merge method
 
-Here is the test that was ran to test the original code and the failure-inducing input is merge({1, 3, 5}, {2, 4, 6}
+Here is the test that was ran to test the original code and the failure-inducing input is merge({"a", "b", "c"}, {"d", "e", "f"}
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
 
@@ -95,9 +106,11 @@ When this test is run, the program results in an out of memory error(symptom). T
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195702026-3a6b594d-791d-47a8-98a8-42e9c357eaab.png)
 
-Here is the original code. The bug is in the final while loop. This bug will only impact the program if the second list passed in has the last element to be merged. Otherwise, the program will have its intended output. The problem is that instead
+Here is the original code. The bug is in the final while loop. This bug will only impact the program if the second list passed in has the last element to be merged. Otherwise, the program will have its intended output. The problem is that after the first while loop has ended and index2 < list2.size(), the final while loop in this method will run. This while loop increments index1 instead of index2, which is the bug, leading to the condition index2 < list2.size() always being true. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
+
+The bug has the simple fix of changing the last while loop to update index2 rather than index1. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701552-5a60d312-7d3d-430a-bc3d-1f25a3fedc8d.png)
 
