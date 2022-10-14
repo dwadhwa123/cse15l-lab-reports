@@ -2,7 +2,9 @@
 
 ## Part 1
 
-'public String handleRequest(URI url) {
+'''
+# code block
+public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format("Size: %d", lst.size());
         } 
@@ -38,7 +40,7 @@
             }
             return "404 Not Found!";
         }
-    }'
+    }'''
 
 ## Part 2
 
