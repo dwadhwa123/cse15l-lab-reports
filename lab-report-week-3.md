@@ -68,12 +68,15 @@ class SearchEngine {
    
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195739202-6a84a9c9-4fa1-447f-b761-3630c3f0b8de.png)
 
-For this screenshot, the handleRequest method is called. 
+For this screenshot, the handleRequest method is called. Since the path begins with "/add", the final if statement in the method runs. The query is split by the equal sign and if the first element of the parameters method is an s, then the second element is added to the list(lst). The program prints out "apple added" to signify that the element has been added. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195739209-7ff85880-c9e0-4b45-b814-531da3cfac83.png)
 
+For this screenshot, the handleRequest method is called. Since the path begins with "/print", the second else if statement in the method runs. The query is split by the equal sign and if the first element of the parameters method is an s, then a for loop is used to print the elements of lst in the order in which they are added. The program prints out "apple water" to show the order of the elements. 
+
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195739218-fd466d2c-95eb-4ef8-ac07-2741d93599d4.png)
 
+For this screenshot, the handleRequest method is called. Since the path begins with "/search", the first else if statement in the method runs. The query is split by the equal sign and if the first element of the parameters method is an s, then a for loop is used to print the elements of lst that contain the second element passed into parameters(part after the equal sign). The program prints out "apple" to show that apple is the only string in lst that contains the substring "le". 
 
 ## Part 2
 
