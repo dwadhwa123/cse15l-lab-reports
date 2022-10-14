@@ -68,15 +68,15 @@ public String handleRequest(URI url) {
 
 testInPlace method
 
-Here are the tests that were ran to test the original code. There is one for an array with even indicies and one for an array with odd indices.
+Here are the tests that were ran to test the original code. There is one for an array with even indicies and one for an array with odd indices. The failure-inducing input is the array with length 4({3, 4, 5, 6}).
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195694281-cd82474c-49a5-42dd-a535-e2baf4129889.png)
 
-The test for the array call ArrayExamples.testInPlace({3, 4, 5, 6}) returns {6, 5, 5, 6} rather than {6, 5, 4, 3). 
+The symptom of the array call ArrayExamples.testInPlace({3, 4, 5, 6}) returns {6, 5, 5, 6} rather than {6, 5, 4, 3). The second half remains unchanged.
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195695276-c0abab23-3d83-41a6-9fb6-11c10bf174f4.png)
 
-Here is the original code. The values in the first half of the array will change correctly to the corresponding values in the second half of the array. However, when it comes to changing the second half of the array, the original values from the first half of the array are not accesible anymore. This is why in the above test the second half of the array remains unchanged. The bug is with both the for loop and the contents inside the for loop. 
+Here is the original code. The values in the first half of the array will change correctly to the corresponding values in the second half of the array. However, when it comes to changing the second half of the array, the original values from the first half of the array are not accesible anymore. These values are what the indexes in the second half of the array are to be set to. This is why in the above test the second half of the array remains unchanged. The bug is with both the for loop and the contents inside the for loop. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195694124-2b7cdb3d-da09-42c5-af18-a4407ec19f83.png)
 
@@ -87,7 +87,11 @@ To fix this issue, I first changed the for loop to only iterate through the firs
 
 merge method
 
+Here is the test that was ran to test the original code and the failure-inducing input is merge({1, 3, 5}, {2, 4, 6}
+
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
+
+When this test is run, the program takes mu
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
 
