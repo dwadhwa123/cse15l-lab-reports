@@ -91,9 +91,11 @@ Here is the test that was ran to test the original code and the failure-inducing
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
 
-When this test is run, the program takes 
+When this test is run, the program results in an out of memory error(symptom). This means that there is likely an infinite loop. 
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195702026-3a6b594d-791d-47a8-98a8-42e9c357eaab.png)
+
+Here is the original code. The bug is in the final while loop. This bug will only impact the program if the second list passed in has the last element to be merged. Otherwise, the program will have its intended output. The problem is that instead
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
 
