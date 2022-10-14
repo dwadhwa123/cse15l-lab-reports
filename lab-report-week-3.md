@@ -89,13 +89,13 @@ merge method
 
 Here is the test that was ran to test the original code and the failure-inducing input is merge({1, 3, 5}, {2, 4, 6}
 
-![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
-
-When this test is run, the program takes mu
-
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701976-567a44c2-ea66-4cc8-9608-287a20592b2c.png)
 
+When this test is run, the program takes 
+
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195702026-3a6b594d-791d-47a8-98a8-42e9c357eaab.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195701806-a756af88-49ee-409d-8c17-f90d57e73930.png)
 
 ![Screenshot](https://user-images.githubusercontent.com/114367462/195701552-5a60d312-7d3d-430a-bc3d-1f25a3fedc8d.png)
 
