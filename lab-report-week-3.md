@@ -2,7 +2,7 @@
 
 ## Part 1
 
-'''
+```
 # code block
 public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
@@ -40,7 +40,8 @@ public String handleRequest(URI url) {
             }
             return "404 Not Found!";
         }
-    }'''
+    }
+    ```
 
 ## Part 2
 
