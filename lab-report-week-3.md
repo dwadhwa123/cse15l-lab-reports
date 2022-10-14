@@ -2,6 +2,44 @@
 
 ## Part 1
 
+'public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("Size: %d", lst.size());
+        } 
+        else if (url.getPath().equals("/search")) {
+            String[] parameters = url.getQuery().split("=");
+            if(parameters[0].equals("s")){
+                String r = "";
+                for(String s: lst){
+                    if(s.contains(parameters[1])){
+                        r += s + " ";
+                    }
+                }
+                return r;
+            }    
+
+        }
+        else if (url.getPath().equals("/print")) {
+                String r = "";
+                for(String s: lst){
+                        r += s + " ";
+                }
+                
+                return r;
+            }    
+        else {
+            if(url.getPath().contains("/add")){
+                String[] parameters = url.getQuery().split("=");
+                if(parameters[0].equals("s")){
+                    lst.add(parameters[1]);
+                    return String.format(lst.get(lst.size()-1) + " added");
+                    }
+                }
+            }
+            return "404 Not Found!";
+        }
+    }'
+
 ## Part 2
 
 testInPlace method
