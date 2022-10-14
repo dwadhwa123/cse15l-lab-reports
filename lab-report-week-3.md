@@ -56,6 +56,13 @@ public String handleRequest(URI url) {
 }
     
    ```
+   
+![Screenshot]("https://user-images.githubusercontent.com/114367462/195739202-6a84a9c9-4fa1-447f-b761-3630c3f0b8de.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195739209-7ff85880-c9e0-4b45-b814-531da3cfac83.png)
+
+![Screenshot](https://user-images.githubusercontent.com/114367462/195739218-fd466d2c-95eb-4ef8-ac07-2741d93599d4.png)
+
 
 ## Part 2
 
