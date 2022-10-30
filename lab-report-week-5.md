@@ -109,3 +109,56 @@ government/About_LSC/commission_report.txt:Chairman of the Board of Directors of
 ```
 
 ## Option 3(Using grep with -l)
+
+
+### Example 1
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -l "government" biomed/* 
+biomed/1471-2091-2-12.txt
+biomed/1471-2253-2-4.txt
+biomed/1471-2296-3-3.txt
+biomed/1471-2318-3-2.txt
+biomed/1471-2350-4-6.txt
+biomed/1471-2377-3-4.txt
+biomed/1471-244X-2-9.txt
+biomed/1471-2458-2-16.txt
+biomed/1471-2458-2-3.txt
+biomed/1472-6882-1-12.txt
+biomed/1472-6947-1-5.txt
+biomed/1472-6947-2-7.txt
+biomed/1472-6947-3-5.txt
+biomed/1472-6963-1-8.txt
+biomed/1472-6963-3-1.txt
+biomed/1472-6963-3-7.txt
+biomed/1475-2875-1-14.txt
+biomed/1475-2875-2-10.txt
+biomed/1475-9276-1-3.txt
+biomed/1476-069X-1-3.txt
+biomed/1476-069X-2-9.txt
+```
+
+
+### Example 2
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -l "communities" government/About_LSC/*
+government/About_LSC/CONFIG_STANDARDS.txt
+government/About_LSC/Comments_on_semiannual.txt
+government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+government/About_LSC/Progress_report.txt
+government/About_LSC/State_Planning_Report.txt
+government/About_LSC/State_Planning_Special_Report.txt
+government/About_LSC/Strategic_report.txt
+government/About_LSC/commission_report.txt
+government/About_LSC/conference_highlights.txt
+government/About_LSC/diversity_priorities.txt
+government/About_LSC/reporting_system.txt
+```
+### Example 3
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -l "Wolfowitz" 911report/*
+911report/chapter-10.txt
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-6.txt
+911report/chapter-8.txt
+```
