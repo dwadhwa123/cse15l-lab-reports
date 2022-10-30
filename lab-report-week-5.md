@@ -52,9 +52,9 @@ This example checks all of the text files within the folder About_LSC and return
 911report/chapter-8.txt:0
 911report/chapter-9.txt:1
 911report/preface.txt:0
-
-Similar to the prior example, this example also checks within all the text files within a given folder and has the same benefit of allowing a user to search more than one file at once for a particular string. This can also be done for all of the text files within technical itself and not just smaller folders such as 911report. 
 ```
+Similar to the prior example, this example also checks within all the text files within a given folder and has the same benefit of allowing a user to search more than one file at once for a particular string. This can also be done for all of the text files within technical itself and not just smaller folders such as 911report. 
+
 ## Option 2(Using grep with -i)
 
 ### Example 1
