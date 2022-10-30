@@ -4,9 +4,10 @@
 
 ### Example 1
 ```
-(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -c "I" government/About_LSC/Comments_on_semiannual.txt 
-47
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -c "such" government/About_LSC/Comments_on_semiannual.txt 
+4
 ```
+The grep -c command checks how many lines in this specific text file have the string "such" in them. The string does not have to be a word by itself and can just be a substring of some word in the line to count. 
 
 ### Example 2
 ```
@@ -29,6 +30,7 @@ government/About_LSC/conference_highlights.txt:43
 government/About_LSC/diversity_priorities.txt:32
 government/About_LSC/reporting_system.txt:29
 ```
+This example checks all of the text files within the folder About_LSC and returns how many lines the string "I" appears in all of them. This helps to search many files quickly. 
 
 ### Example 3
 ```
@@ -50,6 +52,8 @@ government/About_LSC/reporting_system.txt:29
 911report/chapter-8.txt:0
 911report/chapter-9.txt:1
 911report/preface.txt:0
+
+Similar to the prior example, this example also checks within all the text files within a given folder and has the same benefit of allowing a user to search more than one file at once for a particular string. This can also be done for all of the text files within technical itself and not just smaller folders such as 911report. 
 ```
 ## Option 2(Using grep with -i)
 
@@ -64,6 +68,9 @@ Client-Centered State Communities of Justice". The conference
 their communities.
 ```
 
+The grep -i command gives the specific lines within a given text file that have a specific substring and prints them out. 
+
+
 ### Example 2
 
 ```
@@ -76,6 +83,7 @@ government/About_LSC/commission_report.txt:ice-Chairman Hulett H. Askew LaVeeda 
 government/About_LSC/commission_report.txt:appointed Mr. Casellas as Chairman of the U.S. Equal Employment
 government/About_LSC/commission_report.txt:Chairman of the Board of Directors of the Philadelphia Bar
 ```
+The grep -i command can also be used on all the text files in a given folder as shown above. When used on an entire folder, the command returns which specific text file the string was found in for each isntance of the string.  
 
 ### Example 3
 
@@ -108,6 +116,8 @@ government/About_LSC/commission_report.txt:Chairman of the Board of Directors of
 911report/chapter-8.txt:                Tenet in July that Deputy Secretary of Defense Paul Wolfowitz questioned the
 ```
 
+The grep -i command is used on an entire folder in the same way as above showing all the lines within the 911report folder that have the string "secretary". It is useful for finding the context of specific words/strings within specific text files. 
+
 ## Option 3(Using grep with -l)
 
 
@@ -137,6 +147,8 @@ biomed/1476-069X-1-3.txt
 biomed/1476-069X-2-9.txt
 ```
 
+The grep -l command prints out which text files have a given string. This is similar to the grep -c command except it does not return how many lines in each file have the particular string.
+
 
 ### Example 2
 ```
@@ -153,6 +165,8 @@ government/About_LSC/conference_highlights.txt
 government/About_LSC/diversity_priorities.txt
 government/About_LSC/reporting_system.txt
 ```
+This example is also run on a entire folder of text files. It is important to note that running -l or any of these three commands on a single file is not very helpful because searching a single file for a substring can be easily done without terminal commands. 
+
 ### Example 3
 ```
 (base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -l "Wolfowitz" 911report/*
@@ -162,3 +176,4 @@ government/About_LSC/reporting_system.txt
 911report/chapter-6.txt
 911report/chapter-8.txt
 ```
+This example is also run on a entire folder of text files like the first two examples. This command can save time in checking if a folder has a particular string. A particular use might be trying to find which files are written by a specific author. 
