@@ -2,13 +2,13 @@
 
 ## Option 1(Using grep with -c)
 
-## Example 1
+### Example 1
 ```
 (base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -c "I" government/About_LSC/Comments_on_semiannual.txt 
 47
 ```
 
-## Example 2
+### Example 2
 ```
 (base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -c "I" government/About_LSC/*                         
 government/About_LSC/CONFIG_STANDARDS.txt:32
