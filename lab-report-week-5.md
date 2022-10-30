@@ -53,4 +53,15 @@ government/About_LSC/reporting_system.txt:29
 ```
 ## Option 2(Using grep with -i)
 
+### Example 1
+
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -i "communities" government/About_LSC/Comments_on_semiannual.txt 
+State Planning Initiative. Building State Justice Communities: A
+state communities of justice - integrated and coordinated legal
+leadership sensitivity to client communities, LSC has convened a
+Client-Centered State Communities of Justice". The conference
+their communities.
+```
+
 ## Option 3(Using grep with -l)
