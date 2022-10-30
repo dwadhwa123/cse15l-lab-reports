@@ -64,4 +64,48 @@ Client-Centered State Communities of Justice". The conference
 their communities.
 ```
 
+### Example 2
+
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -i "chairman" government/About_LSC/*
+government/About_LSC/Comments_on_semiannual.txt:Douglas S. Eakeley, Chairman Legal Services Corporation May 31,
+government/About_LSC/Special_report_to_congress.txt:to services provided by LSC grantees. Subcommittee Chairman Rep.
+government/About_LSC/commission_report.txt:Hon. John N. Erlenborn, Chairman Professor T. Alexander
+government/About_LSC/commission_report.txt:Douglas S. Eakeley, Chairman Hon. John N. Erlenborn, V
+government/About_LSC/commission_report.txt:ice-Chairman Hulett H. Askew LaVeeda M. Battle Hon. John T.
+government/About_LSC/commission_report.txt:appointed Mr. Casellas as Chairman of the U.S. Equal Employment
+government/About_LSC/commission_report.txt:Chairman of the Board of Directors of the Philadelphia Bar
+```
+
+### Example 3
+
+```
+(base) dhruv@Dhruvs-MacBook-Air-2 technical % grep -i "Wolfowitz" 911report/*
+911report/chapter-10.txt:                Ashcroft, Mueller, Tenet, Deputy Secretary of Defense Paul Wolfowitz, and Cofer
+911report/chapter-10.txt:                administration should do about Iraq. Deputy Secretary Wolfowitz made the case for
+911report/chapter-10.txt:            Secretary Powell recalled that Wolfowitz-not Rumsfeld-argued that Iraq was ultimately
+911report/chapter-10.txt:            Powell said that Wolfowitz was not able to justify his belief that Iraq was behind
+911report/chapter-10.txt:                Wolfowitz's argument "much weight." Though continuing to
+911report/chapter-10.txt:            Within the Pentagon, Deputy Secretary Wolfowitz continued to press the case for
+911report/chapter-10.txt:                eliminating that threat. Wolfowitz contended that the odds were "far more" than 1 in
+911report/chapter-10.txt:                1993 attack on the World Trade Center. 73 The next day, Wolfowitz renewed the
+911report/chapter-13.4.txt:                Paul Wolfowitz interview (Jan. 20, 2004); Stephen Hadley meeting (Jan. 31, 2004).
+911report/chapter-13.4.txt:            200. NSC memo, Hadley to Armitage, Wolfowitz, McLaughlin, and O'Keefe, "Next Steps on
+911report/chapter-13.4.txt:            220. Paul Wolfowitz interview (Jan. 20, 2004); Donald Rumsfeld interview (Jan. 30,
+911report/chapter-13.4.txt:                Wolfowitz, and Myers, "Re: Predator," July 11, 2001. On Rice's intervention, see
+911report/chapter-13.4.txt:            245. NSC memo, Hadley to Armitage, Wolfowitz, Myers, and McLaughlin, resolving
+911report/chapter-13.5.txt:                Wolfowitz's position on Iraq, see Bob Woodward, Bush at War (Simon &
+911report/chapter-13.5.txt:                recollection of Wolfowitz's remarks at Camp David. DOD transcript, "Secretary
+911report/chapter-13.5.txt:            73. DOD memo, Wolfowitz to Rumsfeld, "Preventing More Events," Sept. 17, 2001. We
+911report/chapter-13.5.txt:                bombing. Wolfowitz added in his memo that he had attempted in June to get the CIA to
+911report/chapter-13.5.txt:            74. DOD memo, Wolfowitz to Rumsfeld, "Were We Asleep?" Sept. 18, 2001.
+911report/chapter-13.5.txt:            22. DOD memo, Rumsfeld to Myers, Wolfowitz, Pace, and Feith, "Global War on
+911report/chapter-6.txt:                too much time had passed and his deputy, Paul Wolfowitz, thought that the Cole
+911report/chapter-6.txt:                Secretary Wolfowitz was confirmed in March 2001 and Under Secretary of Defense for
+911report/chapter-6.txt:                Wolfowitz took the position that the CIA should have to pay for it; the CIA
+911report/chapter-6.txt:                Wolfowitz, and Joint Chiefs Vice Chairman Richard Myers to deploy Predators capable
+911report/chapter-6.txt:            The Defense Department favored strong action. Deputy Secretary Wolfowitz questioned
+911report/chapter-8.txt:                Tenet in July that Deputy Secretary of Defense Paul Wolfowitz questioned the
+```
+
 ## Option 3(Using grep with -l)
