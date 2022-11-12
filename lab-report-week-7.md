@@ -23,4 +23,11 @@ I repeated this sequence of commands 3 times.
   
 After changing all 3 instances of the start variable to base, I typed :w<Enter> which saved the changes of DocSearchServer.java.
   
-
+## Part 2
+  
+The edit using took about a minute whereas the edit using VS Code took about 30 seconds. I think this is partially due to forgetting to change modes and not being well versed in using vim. 
+  
+  
+1. I would prefer editing in VSCode because for vim if I forget how to do a specific command then I would waste time whereas editing in VSCode is something I am familiar with. 
+  
+2. I think for small edits using vim makes sense but for larger edits VSCode would be my choice. 
