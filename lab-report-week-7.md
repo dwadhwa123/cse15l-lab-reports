@@ -2,7 +2,7 @@
 
 ## Part 1
 
-/start<Enter>cebase<Esc>/start<Enter>cebase<Esc>/start<Enter>cebase<Esc>:w<Enter>
+```/start<Enter>cebase<Esc>/start<Enter>cebase<Esc>/start<Enter>cebase<Esc>:w<Enter>```
 
 There are 3 instances of the start variable in the getFiles method including the paramter. Therefore, I used the sequence /start<Enter>cebase<Esc> 3 times to change all 3 instances to base and then used the :w<Enter> to save the changes. 
   
