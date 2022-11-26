@@ -32,3 +32,8 @@ if [ ! $? -eq 0 ]
 echo "Test passed: 5 points"
 exit 0
 ```
+![Screenshot](https://user-images.githubusercontent.com/114367462/204072847-3d30591c-d451-452a-8c8b-621067130860.png)
+![Screenshot](https://user-images.githubusercontent.com/114367462/204072849-dd819b55-2b9a-4e5d-a09c-cb05a31e7b01.png)
+![Screenshot](https://user-images.githubusercontent.com/114367462/204072850-255f5272-4b19-4b97-9079-9fe3059db6d9.png)
+
+
