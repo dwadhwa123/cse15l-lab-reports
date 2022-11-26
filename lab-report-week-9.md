@@ -5,15 +5,15 @@ grade.sh
 # set -e
 rm -rf student-submission
 git clone $1 student-submission
-cp TestListExamples.java student-submission/
-cp -r hamcrest-core-1.3.jar student-submission/
-cp -r junit-4.13.2.jar student-submission/
 if [ ! -e student-submission/ListExamples.java ] 
     then 
         echo "Student submission does not contain proper files: 0 points" 
         exit 1
 fi
 
+cp TestListExamples.java student-submission/
+cp -r hamcrest-core-1.3.jar student-submission/
+cp -r junit-4.13.2.jar student-submission/
 cd student-submission 
 
 javac -cp .:lib/hamcrest-core-1.3.jar:list-examples-grader/lib/junit-4.13.2.jar *.java 2> err.txt
