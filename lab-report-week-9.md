@@ -24,12 +24,12 @@ if [ ! $? -eq 0 ]
 fi
 
 java -cp .:lib/hamcrest-core-1.3.jar:list-examples-grader/lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > results.txt
-grep -q "OK" results.txt && echo $
+grep -q "failure" results.txt && echo $
 if [ ! $? -eq 0 ]
     then 
-        echo "Test Failed: 2 points "
+        echo "Test passed: 5 points"
 
-echo "Test passed: 5 points"
+echo "Test Failed: 2 points "
 exit 0
 ```
 ![Screenshot](https://user-images.githubusercontent.com/114367462/204072847-3d30591c-d451-452a-8c8b-621067130860.png)
